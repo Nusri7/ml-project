@@ -3,3 +3,4 @@ numpy
 seaborn
 
 -e.
+pip install -r 
