@@ -1,0 +1,10 @@
+2023-07-20 19:39:23,527:INFO:Data ingestion started!!!
+2023-07-20 19:39:23,532:INFO:Read the dataset as dataframe
+2023-07-20 19:39:23,570:INFO:Train test split initiated!!!
+2023-07-20 19:39:23,592:INFO:Data ingestion completed!!!
+2023-07-20 19:39:23,612:INFO:Read train and test data completed
+2023-07-20 19:39:23,612:INFO:Obtaining preprocessing object
+2023-07-20 19:39:23,612:INFO:Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2023-07-20 19:39:23,612:INFO:Numerical columns: ['writing_score', 'reading_score']
+2023-07-20 19:39:23,632:INFO:Applying preprocessing object on training dataframe and testing dataframe.
+2023-07-20 19:39:23,680:INFO:Saved preprocessing object.
