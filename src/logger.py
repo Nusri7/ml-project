@@ -12,6 +12,5 @@ logging.basicConfig(filename=log_path, level=logging.INFO,
                     format="%(asctime)s:%(levelname)s:%(message)s")
 
 
-if __name__ == "__main__":
-    logging.info("Login Started!!!")
+
     
