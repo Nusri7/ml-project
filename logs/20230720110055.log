@@ -1,0 +1,4 @@
+2023-07-20 11:00:56,853:INFO:Data ingestion started!!!
+2023-07-20 11:00:56,857:INFO:Read the dataset as dataframe
+2023-07-20 11:00:56,901:INFO:Train test split initiated!!!
+2023-07-20 11:00:56,951:INFO:Data ingestion completed!!!
