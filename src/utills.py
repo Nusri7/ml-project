@@ -3,11 +3,12 @@ import sys
 import pandas as pd
 import numpy as np
 import pickle
+
 from sklearn.metrics import r2_score
 sys.path.insert(0, 'src/')
 from exception import CustomException
 from logger import logging
-
+from sklearn.model_selection import GridSearchCV
 
 def save_object(file_path, obj):
     try:
@@ -30,7 +31,10 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
             model = list(models.values())[i]
             para=param[list(models.keys())[i]]
 
-           
+            gs = GridSearchCV(model,para,cv=3)
+            gs.fit(X_train,y_train)
+
+            model.set_params(**gs.best_params_)
             model.fit(X_train,y_train)
 
             #model.fit(X_train, y_train)  # Train model
