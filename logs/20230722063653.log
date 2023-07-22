@@ -1,0 +1,12 @@
+2023-07-22 06:36:55,016:INFO:Entered the data ingestion method or component
+2023-07-22 06:36:55,021:INFO:Read the dataset as dataframe
+2023-07-22 06:36:55,027:INFO:Train test split initiated
+2023-07-22 06:36:55,034:INFO:Inmgestion of the data iss completed
+2023-07-22 06:36:55,053:INFO:Read train and test data completed
+2023-07-22 06:36:55,053:INFO:Obtaining preprocessing object
+2023-07-22 06:36:55,053:INFO:Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2023-07-22 06:36:55,053:INFO:Numerical columns: ['writing_score', 'reading_score']
+2023-07-22 06:36:55,054:INFO:Applying preprocessing object on training dataframe and testing dataframe.
+2023-07-22 06:36:55,076:INFO:Saved preprocessing object.
+2023-07-22 06:36:55,077:INFO:Split training and test input data
+2023-07-22 06:37:00,053:INFO:Best found model on both training and testing dataset
